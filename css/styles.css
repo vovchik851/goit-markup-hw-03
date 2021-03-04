@@ -1,0 +1,246 @@
+:root {
+  --accent-color: #2196f3;
+  --color-fonts-dark-background: #fff;
+  --color-background: #2f303a;
+  --color-link-visited: #900060;
+  --first-color-fonts: #212121;
+  --second-color-fonts: #757575;
+  --color-background-secton-team: #f5f4fa;
+}
+
+body {
+  font-family: 'Roboto' sans-serif;
+  color: var(--first-color-fonts);
+}
+
+.link {
+  text-decoration: none;
+}
+
+.list {
+  list-style: none;
+}
+
+.address {
+  font-style: normal;
+}
+
+/*-----COMPONENTS---------*/
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--color-fonts-dark-background);
+}
+
+.hero-button {
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  letter-spacing: 0.06em;
+  width: 200px;
+  height: 50px;
+  left: 700px;
+  top: 430px;
+  border-width: 0px;
+  border-color: var(--accent-color);
+  border-radius: 4px;
+  color: var(--color-fonts-dark-background);
+  background-color: var(--accent-color);
+  cursor: pointer;
+}
+
+/*-----END COMPONENTS---------*/
+
+/*----HEADER------*/
+.hero {
+  background-color: var(--color-background);
+}
+
+.logo-webstudio {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  color: var(--first-color-fonts);
+}
+
+.logo-web {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  color: var(--accent-color);
+}
+
+.navigatin-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--first-color-fonts);
+}
+
+.navigatin-link:hover,
+.mail-tel-link:hover,
+.navigatin-link:focus,
+.mail-tel-link:focus {
+  color: var(--accent-color);
+}
+.navigatin-link:active {
+  color: var(--color-link-visited);
+}
+
+.mail-tel-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--second-color-fonts);
+}
+
+/*----END HEADER------*/
+
+/*--------ABOUT--------*/
+.about-desicion {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.about-works {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--second-color-fonts);
+}
+/*--------END ABOUT--------*/
+
+/*-----------WORK----------*/
+.work-heading {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+/*-------END_WORK----*/
+
+/*-------TEAM---------*/
+.team {
+  background-color: var(--color-background-secton-team);
+}
+
+.team-heading {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.team-surname {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.team-position {
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--second-color-fonts);
+}
+/*-------END TEAM---------*/
+
+/*---------CONTACT---------*/
+.contact {
+  background-color: var(--color-background);
+}
+
+.logo-webstudio-contakt {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  color: var(--color-fonts-dark-background);
+}
+
+.logo-web {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--accent-color);
+}
+
+.contact-link {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--color-fonts-dark-background);
+}
+
+.contact-link:hover,
+.contact-link:focus {
+  color: var(--accent-color);
+}
+/*---------END CONTACT---------*/
+
+/*--------GALERY------------*/
+.galery-head-bytton {
+  width: 145px;
+  height: 38px;
+  left: 712px;
+  top: 174px;
+  border-color: var(--color-fonts-dark-background);
+  border-width: 0px;
+  background: var(--color-background-secton-team);
+  border-radius: 4px;
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  cursor: pointer;
+}
+
+.galery-head-bytton:hover,
+.galery-head-bytton:focus {
+  color: var(--color-fonts-dark-background);
+  background-color: var(--accent-color);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+}
+
+.galery-name {
+  font-style: 400;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.galery-section {
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color: var(--second-color-fonts);
+}
+/*--------END GALERY------------*/
