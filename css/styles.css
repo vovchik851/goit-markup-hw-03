@@ -13,6 +13,26 @@ body {
   color: var(--first-color-fonts);
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  display: block;
+}
+
 .link {
   text-decoration: none;
 }
@@ -25,7 +45,29 @@ body {
   font-style: normal;
 }
 
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.visually-hidden {
+  position: absolute !important;
+  clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 0 !important;
+  border: 0 !important;
+  height: 1px !important;
+  width: 1px !important;
+  overflow: hidden;
+}
+
 /*-----COMPONENTS---------*/
+.hero {
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
 .hero-title {
   font-weight: 900;
   font-size: 44px;
@@ -34,6 +76,9 @@ body {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--color-fonts-dark-background);
+  padding-left: 251px;
+  padding-right: 251px;
+  padding-bottom: 30px;
 }
 
 .hero-button {
@@ -46,23 +91,49 @@ body {
   text-align: center;
   justify-content: center;
   letter-spacing: 0.06em;
-  width: 200px;
-  height: 50px;
-  left: 700px;
-  top: 430px;
+  min-width: 200px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
   border-width: 0px;
   border-color: var(--accent-color);
   border-radius: 4px;
   color: var(--color-fonts-dark-background);
   background-color: var(--accent-color);
   cursor: pointer;
+  margin: 0px auto;
 }
 
 /*-----END COMPONENTS---------*/
 
 /*----HEADER------*/
-.hero {
-  background-color: var(--color-background);
+.header {
+  padding-top: 31px;
+  padding-bottom: 31px;
+}
+.header .container {
+  display: flex;
+  align-items: center;
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+}
+.navigatoin-item:not(:last-child) {
+  margin-right: 52px;
+}
+
+.navigation-list,
+.mail-tel-list {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+
+.mail-tel-item:not(:last-child) {
+  margin-right: 52px;
 }
 
 .logo-webstudio {
@@ -71,6 +142,7 @@ body {
   font-size: 26px;
   line-height: 1.19;
   color: var(--first-color-fonts);
+  margin-right: 93px;
 }
 
 .logo-web {
@@ -108,6 +180,12 @@ body {
 }
 
 /*----END HEADER------*/
+/*-------HERO---------*/
+
+.hero {
+  background-color: var(--color-background);
+}
+/*-------END HERO---------*/
 
 /*--------ABOUT--------*/
 .about-desicion {

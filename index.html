@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html lang= "ru">
+<html lang="ru">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,14 +9,17 @@
         integrity="sha512-ISS7cAi1PEhQ8jnbJpJZMd29NlhNj4AWYyLOSp2CE/CsHxTCu+r+t0D2yoJudVrd0/8fTVPUVDzY5Tvli75u/g=="
         crossorigin="anonymous" />
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+    <link
+        href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="./css/styles.css">
     <title>Студия</title>
 </head>
+
 <body>
     <!--Шапка страници-->
-        <header class="header">
+    <header class="header">
+        <div class="container">
             <nav class="navigation">
                 <a class="logo-webstudio link" lang="en" href="WebStudio" target="_blank">
                     <span class="logo-web">Web</span>Studio</a>
@@ -33,53 +37,66 @@
             </nav>
             <ul class="mail-tel-list list">
                 <li class="mail-tel-item">
-                    <a class="mail-tel-link link" href="mailto:info@devstudio.com" lang="en">info@devstudio.com</a> 
+                    <a class="mail-tel-link link" href="mailto:info@devstudio.com" lang="en">info@devstudio.com</a>
                 </li>
                 <li class="mail-tel-item">
-                    <a class="mail-tel-link link" href="tel:+380961111111">+380961111111</a>   
+                    <a class="mail-tel-link link" href="tel:+380961111111">+380961111111</a>
                 </li>
-            </ul> 
-        </header>
+            </ul>
+        </div>
+    </header>
     <main>
         <!--Hero-->
         <section class="hero">
-            <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
-            <button class="hero-button" type="button">Заказать услугу</button>
+            <div class="container">
+                <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
+                <div class="block-button">
+                    <button class="hero-button" type="button">Заказать услугу</button>
+                </div>
+            </div>
         </section>
         <!--ABOUT-->
         <section class="about">
-            <h2 hidden>Основные характеристики работ</h2> <!--повинен бути скритий через стилі-->
+            <h2 hidden>Основные характеристики работ</h2>
+            <!--повинен бути скритий через стилі-->
             <ul class="about-list list">
                 <li class="about-item">
                     <h3 class="about-desicion">Внимание к деталям</h3>
-                    <p class="about-works"> Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
-                </li> 
+                    <p class="about-works"> Идейные соображения, а также начало повседневной работы по формированию
+                        позиции.</p>
+                </li>
                 <li class="about-item">
                     <h3 class="about-desicion">Пунктуальность</h3>
-                    <p class="about-works">Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
+                    <p class="about-works">Задача организации, в особенности же рамки и место обучения кадров влечет за
+                        собой.</p>
                 </li>
                 <li class="about-item">
                     <h3 class="about-desicion">Планирование</h3>
-                    <p class="about-works">Равным образом консультация с широким активом в значительной степени обуславливает.</p>
+                    <p class="about-works">Равным образом консультация с широким активом в значительной степени
+                        обуславливает.</p>
                 </li>
-                <li class="about-item">     
+                <li class="about-item">
                     <h3 class="about-desicion">Современные технологии</h3>
-                    <p class="about-works">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
+                    <p class="about-works">Значимость этих проблем настолько очевидна, что реализация плановых заданий.
+                    </p>
                 </li>
             </ul>
         </section>
         <!--Виды занятий-->
         <section class="work">
-            <h2 class="work-heading" >Чем мы занимаемся</h2>
+            <h2 class="work-heading">Чем мы занимаемся</h2>
             <ul class="work-list list">
                 <li class="work-item">
-                    <img class="work-img" src="./images/works/img_1.jpg" alt="Разработка сайтов" width="370" height="294">
+                    <img class="work-img" src="./images/works/img_1.jpg" alt="Разработка сайтов" width="370"
+                        height="294">
                 </li>
                 <li class="work-item">
-                    <img class="work-img" src="./images/works/img_2.jpg" alt="Разработка мобильных приложений" width="370" height="294">
+                    <img class="work-img" src="./images/works/img_2.jpg" alt="Разработка мобильных приложений"
+                        width="370" height="294">
                 </li>
                 <li class="work-item">
-                    <img class="work-img" src="./images/works/img_3.jpg" alt="Разработка дизайна" width="370" height="294">
+                    <img class="work-img" src="./images/works/img_3.jpg" alt="Разработка дизайна" width="370"
+                        height="294">
                 </li>
             </ul>
         </section>
@@ -112,21 +129,24 @@
     </main>
     <!--CONTACT INFORMATION-->
     <footer class="contact">
-        <a class="logo-webstudio-contakt link"  lang="en" href="WebStudio" target="_blank"><span class="logo-web">Web</span>Studio</a>
+        <a class="logo-webstudio-contakt link" lang="en" href="WebStudio" target="_blank"><span
+                class="logo-web">Web</span>Studio</a>
         <address>
-        <ul class="contact-list list">
-            <li class="contact-item">
-                <a class="contact-link link address" href="https://goo.gl/maps/cY92nPy66hMeKXWc9" target="_blank" rel="noopener noreferrer">
-                г. Киев, пр-т Леси Украинки, 26</a>
-            </li>
-            <li>
-                <a class="contact-link link address" href="mailto:info@example.com" lang="en">info@example.com</a>
-            </li>
-            <li>
-                <a class="contact-link link address" href="tel:+380991111111">+380991111111</a>
-            </li>
-        </ul>
+            <ul class="contact-list list">
+                <li class="contact-item">
+                    <a class="contact-link link address" href="https://goo.gl/maps/cY92nPy66hMeKXWc9" target="_blank"
+                        rel="noopener noreferrer">
+                        г. Киев, пр-т Леси Украинки, 26</a>
+                </li>
+                <li>
+                    <a class="contact-link link address" href="mailto:info@example.com" lang="en">info@example.com</a>
+                </li>
+                <li>
+                    <a class="contact-link link address" href="tel:+380991111111">+380991111111</a>
+                </li>
+            </ul>
         </address>
     </footer>
 </body>
+
 </html>
