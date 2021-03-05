@@ -13,6 +13,7 @@ body {
   color: var(--first-color-fonts);
 }
 
+/*-----COMPONENTS---------*/
 h1,
 h2,
 h3,
@@ -61,48 +62,6 @@ img {
   height: 1px !important;
   width: 1px !important;
   overflow: hidden;
-}
-
-/*-----COMPONENTS---------*/
-.hero {
-  padding-top: 200px;
-  padding-bottom: 200px;
-}
-.hero-title {
-  font-weight: 900;
-  font-size: 44px;
-  line-height: 1.36;
-  text-align: center;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-  color: var(--color-fonts-dark-background);
-  padding-left: 251px;
-  padding-right: 251px;
-  padding-bottom: 30px;
-}
-
-.hero-button {
-  font-family: inherit;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.87;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  justify-content: center;
-  letter-spacing: 0.06em;
-  min-width: 200px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  padding-left: 30px;
-  padding-right: 30px;
-  border-width: 0px;
-  border-color: var(--accent-color);
-  border-radius: 4px;
-  color: var(--color-fonts-dark-background);
-  background-color: var(--accent-color);
-  cursor: pointer;
-  margin: 0px auto;
 }
 
 /*-----END COMPONENTS---------*/
@@ -180,10 +139,49 @@ img {
 }
 
 /*----END HEADER------*/
+
 /*-------HERO---------*/
 
 .hero {
   background-color: var(--color-background);
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--color-fonts-dark-background);
+  padding-left: 251px;
+  padding-right: 251px;
+  padding-bottom: 30px;
+}
+
+.hero-button {
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  letter-spacing: 0.06em;
+  min-width: 200px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  border-width: 0px;
+  border-color: var(--accent-color);
+  border-radius: 4px;
+  color: var(--color-fonts-dark-background);
+  background-color: var(--accent-color);
+  cursor: pointer;
+  margin: 0px auto;
 }
 /*-------END HERO---------*/
 
