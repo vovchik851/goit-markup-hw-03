@@ -69,8 +69,8 @@ img {
 
 /*----HEADER------*/
 .header {
-  padding-top: 31px;
-  padding-bottom: 31px;
+  padding-top: 24px;
+  padding-bottom: 24px;
   border-bottom: 1px solid #ececec;
 }
 .header .container {
@@ -412,6 +412,10 @@ img {
   margin-top: var(--card-indent);
   margin-left: var(--card-indent);
   flex-basis: calc(100% / 3 - var(--card-indent));
+}
+
+.href-galery-card {
+  color: var(--first-color-fonts);
 }
 
 .galery-card {
