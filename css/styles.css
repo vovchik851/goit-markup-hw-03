@@ -69,8 +69,6 @@ img {
 
 /*----HEADER------*/
 .header {
-  padding-top: 24px;
-  padding-bottom: 24px;
   border-bottom: 1px solid #ececec;
 }
 .header .container {
@@ -104,6 +102,8 @@ img {
   line-height: 1.19;
   color: var(--first-color-fonts);
   margin-right: 93px;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .logo-web {
@@ -146,6 +146,8 @@ img {
 
 .hero {
   background-color: var(--color-background);
+  max-width: 1600px;
+  margin: 0 auto;
   padding-top: 200px;
   padding-bottom: 200px;
 }
@@ -157,9 +159,9 @@ img {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--color-fonts-dark-background);
-  padding-left: 251px;
-  padding-right: 251px;
-  padding-bottom: 30px;
+  margin-bottom: 30px;
+  padding-left: 252px;
+  padding-right: 252px;
 }
 
 .hero-button {
@@ -189,10 +191,13 @@ img {
 
 /*--------ABOUT--------*/
 
-.about-list {
-  display: flex;
+.about {
   padding-top: 94px;
   padding-bottom: 47px;
+}
+
+.about-list {
+  display: flex;
   margin-left: calc(-1 * var(--card-indent));
   margin-top: calc(-1 * var(--card-indent));
 }
@@ -221,20 +226,22 @@ img {
 /*--------END ABOUT--------*/
 
 /*-----------WORK----------*/
+.work {
+  padding-top: 47px;
+  padding-bottom: 90px;
+}
+
 .work-heading {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
   letter-spacing: 0.03em;
-  padding-top: 47px;
-  padding-bottom: 25px;
+  margin-bottom: 50px;
 }
 
 .work-list {
   display: flex;
-  padding-top: 25px;
-  padding-bottom: 90px;
   margin-left: calc(-1 * var(--card-indent));
   margin-top: calc(-1 * var(--card-indent));
 }
@@ -249,6 +256,8 @@ img {
 /*-------TEAM---------*/
 .team {
   background-color: var(--color-background-secton-team);
+  padding-top: 90px;
+  padding-bottom: 100px;
 }
 
 .team-heading {
@@ -257,14 +266,11 @@ img {
   line-height: 1.16;
   text-align: center;
   letter-spacing: 0.03em;
-  padding-top: 90px;
-  padding-bottom: 24px;
+  margin-bottom: 50px;
 }
 
 .team-list {
   display: flex;
-  padding-top: 24px;
-  padding-bottom: 100px;
   margin-left: calc(-1 * var(--card-indent));
   margin-top: calc(-1 * var(--card-indent));
 }
@@ -279,6 +285,10 @@ img {
 .card-team {
   background: #ffffff;
   border-radius: 4px;
+  padding-top: var(--card-indent);
+  padding-bottom: var(--card-indent);
+  padding-right: 32px;
+  padding-left: 32px;
 }
 
 .team-surname {
@@ -287,8 +297,7 @@ img {
   line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
-  padding-top: var(--card-indent);
-  padding-bottom: 5px;
+  margin-bottom: 10px;
 }
 
 .team-position {
@@ -297,8 +306,6 @@ img {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--second-color-fonts);
-  padding-top: 5px;
-  padding-bottom: var(--card-indent);
 }
 /*-------END TEAM---------*/
 
@@ -310,13 +317,14 @@ img {
 }
 
 .logo-webstudio-contakt {
+  display: inline-block;
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: var(--color-fonts-dark-background);
-  padding-bottom: 10px;
+  margin-bottom: 20px;
 }
 
 .logo-web {
@@ -326,12 +334,8 @@ img {
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: var(--accent-color);
-  padding-bottom: 10px;
 }
 
-.contact-list {
-  padding-top: 10px;
-}
 .contact-link-address {
   font-size: 14px;
   line-height: 2;
@@ -358,13 +362,17 @@ img {
 /*---------END CONTACT---------*/
 
 /*--------GALERY------------*/
+.galery {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 .galery-head-list {
   display: flex;
   align-items: center;
   text-align: center;
   justify-content: center;
-  padding-top: 94px;
-  padding-bottom: 25px;
+  margin-bottom: 50px;
 }
 .galery-head-item:not(:last-child) {
   margin-right: 8px;
@@ -402,8 +410,6 @@ img {
 .galery-list {
   display: flex;
   flex-wrap: wrap;
-  padding-top: 25px;
-  padding-bottom: 94px;
   margin-top: calc(-1 * var(--card-indent));
   margin-left: calc(-1 * var(--card-indent));
 }
@@ -420,10 +426,7 @@ img {
 
 .galery-card {
   background-color: #fff;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  padding-left: 24px;
-  padding-right: 24px;
+  padding: 20px 24px 20px 24px;
   border: 1px solid #eeeeee;
   border-top: none;
 }
